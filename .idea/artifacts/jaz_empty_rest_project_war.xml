@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="jaz-empty-rest-project:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>jaz-empty-rest-project</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="samplerestapp.war">
+      <element id="artifact" artifact-name="jaz-empty-rest-project:war exploded" />
+    </root>
+  </artifact>
+</component>
